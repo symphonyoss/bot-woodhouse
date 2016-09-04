@@ -1,0 +1,12 @@
+Woodhouse (botexample)
+
+Copyright 2016 Symphony Software Foundation
+
+---
+
+The following Go packages are linked to this project as third-party libraries and licensed under a BSD license:
+- [fmt](https://golang.org/pkg/fmt)
+- [sync](https://golang.org/pkg/sync)
+- [os](https://golang.org/pkg/os)
+- [regexp](https://golang.org/pkg/regexp)
+- [log](https://golang.org/pkg/log)
