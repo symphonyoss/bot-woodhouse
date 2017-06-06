@@ -24,7 +24,7 @@ type NewsResult struct {
 
 func (news *News) TopStories() (result []Result ) {
 	resp, err := newsClient.R().
-	Get("http://developer.nytimes.com/proxy/https/api.nytimes.com/svc/topstories/v2/home.json?api-key=" + news.APIKey)
+	Get("https://api.nytimes.com/svc/topstories/v2/home.json?apikey=" + news.APIKey)
 	if err != nil {
 		fmt.Println(err)
 		fmt.Println(resp)
